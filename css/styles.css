@@ -137,6 +137,42 @@ margin-top: 75px;
 align-content: center;
 }
 
+.informasjonssider1 a {
+ text-decoration: none;
+ color: #fff;
+ font-weight: normal;
+ font-size: 15px;
+}
+
+.informasjonssider1 li {
+ width: 100px;
+ margin: 0px;
+ margin-left: -10px;
+}
+
+.informasjonssider1 ul {
+ margin-top: 35px;
+}
+
+
+.informasjonssider2 a {
+ text-decoration: none;
+ color: #fff;
+ font-weight: normal;
+ font-size: 15px;
+}
+   
+.informasjonssider2 li {
+ width: 120px;
+ margin: 0px;
+ margin-left: 150px;
+}
+
+.informasjonssider2 ul {
+ margin-top: -75px;
+}
+
+
 
 
 }
