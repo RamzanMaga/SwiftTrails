@@ -1,0 +1,192 @@
+@media screen and (max-width: 390px) {
+header{
+ margin-top: -20px;
+}
+
+#topmeny {
+ width: 403.666px;
+ height: 75px;
+ margin-right: -5px;
+ background-color: #790000aa;
+ display: flex;
+ flex-direction: row;
+}
+
+body{
+ margin: 0%;
+}
+    
+.avdelinger {
+ background-color: #a65555;
+ width: 403.666px;
+ margin-top: -17px;
+}
+
+#fname {
+ width: 80px;
+ height: 10px;
+ margin: -1px;
+ margin-left: -5px;
+}
+    
+#søk {
+ margin-left: 65px;
+}
+
+.avdelinger ul {
+ list-style: none;
+ display: flex;
+ text-align: left;
+ margin-left: -40px;
+}
+
+.avdelinger li {
+ margin: 0 10px;
+}
+
+.avdelinger a {
+ text-decoration: none;
+ color: #000;
+ font-weight: bold;
+ font-size: 20px;
+}
+ 
+#sectionbars {
+ margin-top: 25px;
+ margin-left: 5px;
+}
+
+#sectiontitel {
+ font-size: 20px;
+ margin-top: 5px;
+ margin-left: 25px;
+}
+
+#sectiontitel a {
+ text-decoration: none;
+}
+      
+#overskrift {
+ color: black;
+}
+
+#section-ikoner {
+ margin-left: 10px;
+}
+
+.avdelinger a:hover {
+ color: #fff;
+}
+
+.ikoner {
+ padding: 10px;
+ display: flex;
+ justify-content: flex-end;
+}
+ 
+.ikoner ul {
+ list-style: none;
+ display: flex;
+}
+
+.ikoner li {
+ margin: 0 2px;
+}
+
+.ikoner img {
+ width: 35px;
+ height: 30px;
+ margin-top: 3px;
+}
+
+#reklame {
+ background-image: url(../img/randombilde.png);
+ padding-left: 85px;
+ margin-top: -20px;
+ width: 318px;
+ height: 80px;
+}
+
+#sesong {
+ color: #fff;
+ font-size: 35px;
+ margin-top: 20px;
+}
+
+#tilbud {
+ color: #fff;
+ font-size: 20px;
+ margin-top: -25px;
+ margin-left: 10px;
+}
+
+#bilde {
+ border: 1px solid black;
+ width: 340px;
+ height: 400px;
+ margin-top: 75px;
+ margin-left: 30px;
+}
+
+footer {
+border: 1px solid black;
+background-color: #000;
+width: 402px;
+height: 150px;
+margin-top: 75px;
+align-content: center;
+}
+
+
+
+}
+ /* 
+  .avdelinger {
+        background-image: url(../img/randombilde.png);
+        padding: 5px 0;
+    }
+
+    .avdelinger ul {
+        list-style: none;
+        display: flex;
+        justify-content: left;
+    }
+
+    .avdelinger li {
+        margin: 0 20px;
+    }
+
+    .avdelinger a {
+        text-decoration: none;
+        color: #0d188d;
+        font-weight: bold;
+        font-size: 16px;
+        transition: color 0.3s;
+    }
+
+    .avdelinger a:hover {
+        color: #f00;
+    }
+
+    .ikoner {
+        background-color: #f8f8f8;
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+ 
+    .ikoner ul {
+        list-style: none;
+        display: flex;
+}
+
+    .ikoner li {
+        margin: 0 20px;
+}
+
+    .ikoner img {
+        width: 35px;
+        height: 30px;
+        margin-top: 3px;
+}
+*/
