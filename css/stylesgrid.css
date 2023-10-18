@@ -1,0 +1,235 @@
+@media screen and (max-width: 390px) {
+    header{
+     margin-top: -20px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            "topmeny"
+            "undermeny"
+            "reklame"
+            "slogan"
+            "bilde"
+            "bundmeny";
+        gap: 0px; /* Adjust the gap as needed */
+    }
+    
+     
+    #topmeny {
+     width: 403.666px;
+     height: 75px;
+     margin-right: -5px;
+     background-color: #790000aa;
+     display: flex;
+     flex-direction: row;
+    }
+    
+    body{
+     margin: 0%;
+    }
+        
+    .avdelinger {
+     background-color: #a65555;
+     width: 403.666px;
+     margin-top: -17px;
+    }
+    
+    #søkbar {
+     width: 80px;
+     height: 10px;
+     margin: -1px;
+     margin-left: -5px;
+    }
+        
+    #søk {
+     margin-left: 65px;
+    }
+    
+    .avdelinger ul {
+     list-style: none;
+     display: flex;
+     text-align: left;
+     margin-left: -40px;
+    }
+    
+    .avdelinger li {
+     margin: 0 10px;
+    }
+    
+    .avdelinger a {
+     text-decoration: none;
+     color: #000;
+     font-weight: bold;
+     font-size: 20px;
+    }
+     
+    #sectionbars {
+     margin-top: 25px;
+     margin-left: 5px;
+    }
+    
+    #sectiontitel {
+     font-size: 20px;
+     margin-top: 5px;
+     margin-left: 25px;
+    }
+    
+    #sectiontitel a {
+     text-decoration: none;
+    }
+          
+    #overskrift {
+     color: black;
+    }
+    
+    #section-ikoner {
+     margin-left: 10px;
+    }
+    
+    .avdelinger a:hover {
+     color: #fff;
+    }
+    
+    .ikoner {
+     padding: 10px;
+     display: flex;
+     justify-content: flex-end;
+    }
+     
+    .ikoner ul {
+     list-style: none;
+     display: flex;
+    }
+    
+    .ikoner li {
+     margin: 0 2px;
+    }
+    
+    .ikoner img {
+     width: 35px;
+     height: 30px;
+     margin-top: 3px;
+    }
+    
+    #reklame {
+     background-image: url(../img/randombilde.png); /*kilde */
+     padding-left: 85px;
+     margin-top: -20px;
+     width: 318px;
+     height: 80px;
+    }
+    
+    #sesong {
+     color: #fff;
+     font-size: 35px;
+     margin-top: 20px;
+    }
+    
+    #tilbud {
+     color: #fff;
+     font-size: 20px;
+     margin-top: -25px;
+     margin-left: 10px;
+    }
+    
+    #slogan {
+     background-color: #D9D9D9;
+     padding-left: 85px;
+     margin-top: 75px;
+     width: 318px;
+     height: 40px;
+    }
+    
+    #slagord {
+     color: #AAAAAA;
+     font-size: 20px;
+     width: 318px;
+     margin-top: 25px;
+     margin-left: -50px;
+    }
+    
+    
+    #bilde {
+     border: 1px solid black;
+     display: block;
+     text-decoration: none;
+     cursor: pointer;
+     width: 340px;
+     height: 400px;
+     margin-top: 0px;
+     margin-left: 30px;
+    }
+    
+    #bilde1 img {
+     width: 100%;
+     height: 100%;
+    }
+    
+    footer {
+    border: 1px solid black;
+    background-color: #0E1111;
+    width: 402px;
+    height: 155px;
+    margin-top: 30px;
+    align-content: center;
+    }
+    
+    .informasjonssider1 a {
+     text-decoration: none;
+     color: #fff;
+     font-weight: normal;
+     font-size: 15px;
+    }
+    
+    .informasjonssider1 li {
+     width: 100px;
+     margin: 0px;
+     margin-left: -10px;
+    }
+    
+    .informasjonssider1 ul {
+     margin-top: 35px;
+    }
+    
+    
+    .informasjonssider2 a {
+     text-decoration: none;
+     color: #fff;
+     font-weight: normal;
+     font-size: 15px;
+    }
+       
+    .informasjonssider2 li {
+     width: 120px;
+     margin: 0px;
+     margin-left: 115px;
+    }
+    
+    .informasjonssider2 ul {
+     margin-top: -75px;
+    }
+    
+    .informasjonssider3 a {
+     text-decoration: none;
+     color: #fff;
+     font-weight: normal;
+     font-size: 15px;
+    }
+    
+    .informasjonssider3 li {
+     width: 120px;
+     margin: 0px;
+     margin-left: 235px;
+    }
+       
+    .informasjonssider3 ul {
+     margin-top: -30px;
+    }
+    
+    .sosiales {
+     margin-left: 220px;
+    }
+    
+    
+    }

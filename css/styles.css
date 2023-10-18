@@ -3,6 +3,17 @@ header{
  margin-top: -20px;
 }
 
+.grid {
+ display: grid;
+ grid-template-areas:
+    "topmeny"
+    "undermeny"
+    "reklame"
+    "slogan"
+    "bilde"
+    "bundmeny";
+}
+
 #topmeny {
  width: 403.666px;
  height: 75px;
@@ -22,14 +33,32 @@ body{
  margin-top: -17px;
 }
 
+.avdelinger1 {
+ background-color: #a65555;
+ width: 403.666px;
+ margin-top: -17px;
+}
+
 #søkbar {
  width: 80px;
  height: 10px;
  margin: -1px;
  margin-left: -5px;
 }
-    
+
+#søkbar1 {
+ width: 80px;
+ height: 10px;
+ margin: -1px;
+ margin-top: -50px;
+ margin-left: -5px;
+}
+
 #søk {
+ margin-left: 65px;
+}
+
+#søk1 {
  margin-left: 65px;
 }
 
@@ -40,7 +69,19 @@ body{
  margin-left: -40px;
 }
 
+.avdelinger1 ul {
+ list-style: none;
+ display: flex;
+ text-align: left;
+ margin-left: 160px;
+}
+
+
 .avdelinger li {
+ margin: 0 10px;
+}
+
+.avdelinger1 li {
  margin: 0 10px;
 }
 
@@ -53,8 +94,13 @@ body{
  
 #sectionbars {
  margin-top: 25px;
- margin-left: 5px;
+ margin-left: -30px;
 }
+
+#bars {
+ list-style-type: none;
+}
+
 
 #sectiontitel {
  font-size: 20px;
@@ -100,17 +146,17 @@ body{
 }
 
 #reklame {
- background-image: url(../img/randombilde.png);
+ background-image: url(../img/randombilde.png); /*kilde */
  padding-left: 85px;
  margin-top: -20px;
  width: 318px;
- height: 80px;
+ height: 90px;
 }
 
 #sesong {
  color: #fff;
  font-size: 35px;
- margin-top: 20px;
+ margin-top: -5px;
 }
 
 #tilbud {
@@ -132,7 +178,7 @@ body{
  color: #AAAAAA;
  font-size: 20px;
  width: 318px;
- margin-top: 25px;
+ margin-top: 0px;
  margin-left: -50px;
 }
 
@@ -158,7 +204,7 @@ border: 1px solid black;
 background-color: #0E1111;
 width: 402px;
 height: 155px;
-margin-top: 30px;
+margin-top: 23px;
 align-content: center;
 }
 
@@ -220,53 +266,3 @@ align-content: center;
 
 
 }
- /* 
-  .avdelinger {
-        background-image: url(../img/randombilde.png);
-        padding: 5px 0;
-    }
-
-    .avdelinger ul {
-        list-style: none;
-        display: flex;
-        justify-content: left;
-    }
-
-    .avdelinger li {
-        margin: 0 20px;
-    }
-
-    .avdelinger a {
-        text-decoration: none;
-        color: #0d188d;
-        font-weight: bold;
-        font-size: 16px;
-        transition: color 0.3s;
-    }
-
-    .avdelinger a:hover {
-        color: #f00;
-    }
-
-    .ikoner {
-        background-color: #f8f8f8;
-        padding: 10px;
-        display: flex;
-        justify-content: flex-end;
-    }
- 
-    .ikoner ul {
-        list-style: none;
-        display: flex;
-}
-
-    .ikoner li {
-        margin: 0 20px;
-}
-
-    .ikoner img {
-        width: 35px;
-        height: 30px;
-        margin-top: 3px;
-}
-*/
