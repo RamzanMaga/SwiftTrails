@@ -1,0 +1,1519 @@
+@media screen and (max-width: 1800px) {   
+header{
+ margin-top: -20px;
+}
+
+.grid {
+ display: grid;
+ grid-template-areas:
+    "topmeny"
+    "undermeny"
+    "reklame"
+    "slogan"
+    "bilde"
+    "bundmeny";
+}
+
+#topmeny {
+ width: 100%;
+ height: 75px;
+ margin-left: 0%;
+ background-color: #790000aa;
+ display: flex;
+ flex-direction: row;
+}
+
+body{
+ margin: 0%;
+}
+ 
+#søkbar {
+ width: 80px;
+ height: 10px;
+ margin: -1px;
+ margin-left: -5px;
+}
+   
+#søkbar1 {
+ width: 80px;
+ height: 10px;
+ margin: -1px;
+ margin-top: -50px;
+ margin-left: -5px;
+}
+   
+#søk {
+ margin-left: 65px;
+}
+   
+#søk1 {
+ margin-left: 65px;
+}
+
+
+.avdelinger {
+ background-color: #a65555;
+ width: 100%;
+ margin-top: -17px;
+}
+
+.avdelinger1 {
+ background-color: #a65555;
+ width: 100%;
+ margin-top: -17px;
+}
+
+.avdelinger ul {
+ list-style: none;
+ display: flex;
+ text-align: left;
+ margin-left: -40px;
+}
+
+.avdelinger1 ul {
+ list-style: none;
+ display: flex;
+ text-align: left;
+ margin-left: 160px;
+}
+
+
+.avdelinger li {
+ margin: 0 10px;
+}
+
+.avdelinger1 li {
+ margin: 0 10px;
+}
+
+.avdelinger a {
+ text-decoration: none;
+ color: #000;
+ font-weight: bold;
+ font-size: 20px;
+}
+ 
+.typesko {
+ width: 403.666px;
+ margin-top: -17px;
+}
+
+.typesko ul {
+ list-style: none;
+ display: flex;
+ text-align: left;
+ margin-left: -10px;
+ margin-top: -20px;
+}
+
+.typesko li {
+ margin: 0 10px;
+}
+   
+.typesko a {
+ text-decoration: none;
+ color: #000;
+ font-weight: bold;
+ font-size: 15px;
+}
+
+#mansko {
+ font-size: 20px;
+ margin-top: 15px;
+ margin-left: 15px;
+}
+
+#settigstext {
+ display: flex;
+ list-style: none;
+ font-size: 18px;
+ gap: 10%;
+ margin-left: 39%;
+ margin-top: 0%;
+}
+
+#sorter {
+ height: 4%;
+ width: 4%;
+ margin-left: 86%;
+ margin-top: -4%;
+}
+
+#filter{
+ height: 5%;
+ width: 5%;
+ margin-left: 58%;
+ margin-top: -6%;
+}
+
+#fargesettings {
+ height: 0%;
+ width: 0%;
+ display: none;
+}
+
+#linje2 {
+ height: 1px;
+ width: 100%;
+ text-decoration: none;
+ border: 1px solid black;
+ background-color: #000;
+ margin-top: -15px;
+ margin-left: 0%;
+}
+
+#linje3 {
+ height: 1px;
+ width: 100%;
+ text-decoration: none;
+ border: 1px solid black;
+ background-color: #000;
+ margin-top: 15%;
+ margin-left: 0%;
+}
+
+#sectionbars {
+ margin-top: 25px;
+ margin-left: -30px;
+}
+
+#bars {
+ list-style-type: none;
+}
+
+
+#sectiontitel {
+ font-size: 20px;
+ margin-top: 5px;
+ margin-left: 25px;
+}
+
+#sectiontitel a {
+ text-decoration: none;
+}
+      
+#overskrift {
+ color: black;
+}
+
+#overskrift2 {
+ padding-left: 5%;
+ margin-top: 5%;
+ width: 50%;
+ height: 50%;
+}
+
+#velkommen {
+ width: 250px;
+ height: 50px;
+ color: #000;
+ font-size: 40px;
+ margin-top: 15%;
+ margin-left: -30%;
+}
+
+
+#overskrift3 {
+ padding-left: 5%;
+ margin-top: 5%;
+ width: 50%;
+ height: 50%;
+}
+   
+#nybruker {
+ width: 250px;
+ height: 50px;
+ color: #000;
+ font-size: 40px;
+ margin-top: 15%;
+ margin-left: -30%;
+}
+
+#epost {
+ margin-top:    0%;
+}
+
+.epostsmall {
+ width: 30%;
+ height: 30px;
+ border: 1px solid black;
+ background-color: #D9D9D9;
+ margin-top: 20%;
+ margin-left: 20%;
+}
+
+.epostsmall p {
+ margin-top: 5%;
+ text-align: left;
+ margin-left: 5%;
+}
+
+.epostborder{
+ height: 35px;
+ width: 75%;
+ margin-left: 20%;
+}
+   
+.epostborder input {
+ border: 1px solid black;
+ width: 75%;
+ height: 30px;
+ font-size: 20px;
+}
+
+#passord {
+ margin-top: 0%;
+}
+
+.passordsmall {
+ width: 30%;
+ height: 30px;
+ border: 1px solid black;
+ background-color: #D9D9D9;
+ margin-top: 5%;
+ margin-left: 20%;
+}
+   
+.passordsmall p {
+ margin-top: 5%;
+ text-align: left;
+ margin-left: 5%;
+}
+
+.passordborder{
+ height: 35px;
+ width: 75%;
+ margin-left: 20%;
+}
+
+.passordborder input {
+ border: 1px solid black;
+ width: 75%;
+ height: 30px;
+ font-size: 20px;
+}
+
+#loginn {
+ margin-top: 10%;
+ margin-left: 20%;
+}
+
+.loginnborder{
+ border: 1px solid black;
+ background-color: #790000;
+ height: 35px;
+ width: 75%;
+}
+
+.loginnborder ul {
+ font-size: 20px;
+ text-align: left;
+ margin-top: 1%;
+ margin-left: 5%;
+}
+
+#glemtpass {
+ margin-left: 20%;
+ margin-top: -4%;
+}
+
+#glemtpass a {
+ text-decoration: none;
+ color: #790000;
+}
+
+#register {
+ margin-top: 10%;
+ margin-left: 20%;
+}
+
+.registerborder{
+ height: 35px;
+ width: 75%;
+ border: 1px solid black;
+}
+
+.registerborder ul {
+ font-size: 20px;
+ text-align: left;
+ margin-top: 1%;
+ margin-left: 5%;
+}
+
+
+#section-ikoner {
+ margin-left: 10px;
+}
+
+.avdelinger a:hover {
+ color: #fff;
+}
+
+.ikoner {
+ padding: 10px;
+ display: flex;
+ justify-content: flex-end;
+}
+ 
+.ikoner ul {
+ list-style: none;
+ display: flex;
+}
+
+.ikoner li {
+ margin: 0 2px;
+}
+
+.ikoner img {
+ width: 35px;
+ height: 30px;
+ margin-top: 3px;
+}
+
+#reklame {
+ background-image: url(../img/randombilde.png); /*kilde */
+ padding-left: 0%;
+ margin-top: -32px;
+ width: 100%;
+ height: 90px;
+}
+
+#reklame1 {
+ background-color: #D9D9D9;
+ padding-left: 0%;
+ margin-top: -20px;
+ width: 318px;
+ height: 90px;
+}
+
+#linje1 {
+ height: 1px;
+ width: 150px;
+ text-decoration: none;
+ border: 1px solid black;
+ background-color: #000;
+ margin-top: -20px;
+ margin-left: -110px;
+}
+
+#sesong {
+ color: #fff;
+ font-size: 35px;
+ margin-top: -5px;
+}
+
+#sesong1 {
+ color: #000;
+ font-size: 25px;
+ margin-top: -5px;
+ margin-left: -100px;
+}
+
+#tilbud {
+ color: #fff;
+ font-size: 20px;
+ margin-top: -25px;
+ margin-left: 10px;
+}
+
+#tilbud1 {
+ color: #000;
+ font-size: 15px;
+ margin-top: -15px;
+ margin-left: -100px;
+}
+
+/*mobil*/
+.shipping {
+ width: 8%;
+ height: 8%;
+ margin: 2%;
+}
+
+.shipping1 {
+ width: 15%;
+ height: 15%;
+ margin: -2%;
+ margin-bottom: 10%;
+}
+
+#shipikon1 {
+ margin-top: 1%;
+}
+
+#shipikon11 {
+ margin-top: 1%;
+}
+
+#shipikon2 {
+ margin-top: -60%;
+}
+
+.shipping1 p {
+ width: 30px;
+ height: 30px;
+ margin-top: -100%;
+ margin-left: 100px;
+}
+
+.shipping1 li {
+ list-style: none;
+ width: 30px;
+ height: 30px;
+ margin-top: -30%;
+ margin-left: 100px;
+}
+
+/*mobil*/
+
+.frifrakt {
+ display: flex;
+ gap: 15%;
+ margin-left: 10%;
+}
+       
+.textikon {
+ display: flex;
+ align-items: center;
+ margin-right: 15px; s
+}
+       
+.textikon img {
+ width: 34px; 
+ height: 34px;
+ margin-right: 10px;
+}
+ 
+
+#frakt1 {
+ width: 180px;
+ height: 20px;
+ color: #000;
+ font-size: 13px;
+ margin-top: -30%;
+ margin-left: 32%;
+}
+
+
+#leveringstid1 {
+ width: 160px;
+ height: 20px;
+ color: #000;
+ font-size: 13px;
+ margin-top: 0%;
+ margin-left: 32%;
+}
+
+.slogan { 
+ background-color: #D9D9D9;
+ padding-left: 0%;
+ margin-top: -4%;
+ width: 100%;
+ height: 40px;
+}
+    
+.slogan h2 {
+ font-size: 20px;
+ color: #828282;
+ margin-top: 1%;
+}
+
+.kvinnebilde {
+ display: block;
+ text-decoration: none;
+ cursor: pointer;
+ width: 340px;
+ height: 400px;
+ margin-top: 0%;
+ margin-left: 10%;
+}
+
+.kvinnebilde img {
+ margin-top: -15%;
+}
+       
+.herrebilde{
+ display: none;
+ text-decoration: none;
+ cursor: pointer;
+ width: 340px;
+ height: 400px;
+ margin-top: 0%;
+ margin-left: 0%;
+}
+   
+.herrebilde img {
+ margin-top: 0%;
+}
+
+.barnbilde {
+ display: none;
+ text-decoration: none;
+ cursor: pointer;
+ width: 340px;
+ height: 400px;
+ margin-top: 0%;
+ margin-left: 0%;
+}
+ 
+.barnbilde img {
+ margin-top: 0%;
+}
+
+#bilde1 img {
+ width: 100%;
+ height: 100%;
+}
+
+#bundmeny {
+border: 1px solid black;
+background-color: #0E1111;
+width: 100%;
+height: 120px;
+margin-top: 0%;
+align-content: center;
+}
+
+.informasjonssider1 a {
+ text-decoration: none;
+ color: #fff;
+ font-weight: normal;
+ font-size: 15px;
+ f
+}
+
+.informasjonssider1 li {
+ width: 100px;
+ margin: 0px;
+ margin-left: -10px;
+}
+
+.informasjonssider1 ul {
+ margin-top: 10px;
+}
+
+
+.informasjonssider2 a {
+ text-decoration: none;
+ color: #fff;
+ font-weight: normal;
+ font-size: 15px;
+}
+   
+.informasjonssider2 li {
+ width: 120px;
+ margin: 0px;
+ margin-left: 115px;
+}
+
+.informasjonssider2 ul {
+ margin-top: -75px;
+}
+
+.informasjonssider3 a {
+ text-decoration: none;
+ color: #fff;
+ font-weight: normal;
+ font-size: 15px;
+}
+
+.informasjonssider3 li {
+ width: 120px;
+ margin: 0px;
+ margin-left: 235px;
+}
+   
+.informasjonssider3 ul {
+ margin-top: -30px;
+}
+
+#bundmeny2 {
+ width: 100%;
+ height: 155px;
+ margin-top: 0%;
+ align-content: center;
+}
+
+.informasjonssider4 a {
+ text-decoration: none;
+ color: #000;
+ font-weight: bold;
+ font-size: 15px;
+}
+   
+.informasjonssider4 li {   
+ width: 100px;
+ margin: 0px;
+ margin-left: -10px;
+ margin-top: 1%;
+ padding-right: 5%;
+ list-style: none;
+}
+
+.informasjonssider4 p {
+ width: 50%;
+ margin-top: 1%;
+ margin-right: 1%;
+}
+
+.informasjonssider4 ul {
+ margin-top: 35px;
+ display: flex;
+}
+
+
+.sosiales {
+ margin-left: 220px;
+}
+
+#airforce1white {
+ list-style: none;
+ border: 1px solid black;
+ width: 50%;
+ height: 50%;
+ margin-top: 12%;
+ margin-left: 15%;
+ color: #000;
+}
+
+#produkt1text ul {
+ width: 70%;
+ margin-top: -3%;
+ margin-left: 1%;
+ text-align: left;
+ list-style: none;
+ color: #000;
+}
+
+#produkt2 {
+list-style: none;
+margin-top: 17%; 
+}
+
+#boots {
+ list-style: none;
+ border: 1px solid black;
+ width: 50%;
+ height: 50%;
+ margin-top: 12%;
+ margin-left: 15%;
+ color: #000;
+}
+
+#produkt2text ul {
+ width: 70%;
+ margin-top: -3%;
+ margin-left: 1%;
+ text-align: left;
+ list-style: none;
+ color: #000;
+}
+
+#produkt3 {
+ list-style: none;
+ display: none;
+}
+
+#produkt3text ul {
+ list-style: none;
+ display: none;
+}
+
+#produkt4 {
+ list-style: none;
+ display: none;
+}
+
+#produkt4text ul {
+ list-style: none;
+ display: none;
+}
+
+} /*mobil media query*/
+
+
+
+/*desktop under her*/
+
+@media screen and (min-width: 300px) and (min-width: 600px) {   
+header{
+ margin-top: -20px;
+}    
+/*desktop*/
+#topmeny {
+ width: 100%;
+ height: 75px;
+ margin-left: 0%;
+ background-color: #790000aa;
+ display: flex;
+ flex-direction: row;
+}
+    
+body{
+margin: 0%;
+}
+
+/*desktop*/
+#søkbar {
+ width: 80px;
+ height: 10px;
+ margin: -1px;
+ margin-left: -5px;
+}
+       
+/*desktop*/
+#søkbar1 {
+ width: 80px;
+ height: 10px;
+ margin: -1px;
+ margin-top: -50px;
+ margin-left: -5px;
+}
+       
+/*desktop*/
+#søk {
+ margin-left: 65px;
+}
+       
+#søk1 {
+ margin-left: 65px;
+}
+    
+/*desktop*/    
+.avdelinger {
+ background-color: #a65555;
+ width: 100%;
+ margin-top: ;
+}
+
+/*desktop*/
+.avdelinger1 {
+ background-color: #a65555;
+ width: 100%;
+ margin-top: -17px;
+}
+
+/*desktop*/
+.avdelinger ul {
+ list-style: none;
+ display: flex;
+ text-align: left;
+ margin-left: -40px;
+}
+    
+/*desktop*/    
+.avdelinger1 ul {
+ list-style: none;
+ display: flex;
+ text-align: left;
+ margin-left: 160px;
+}
+    
+/*desktop*/    
+.avdelinger li {
+ margin: 0 10px;
+}
+
+/*desktop*/
+.avdelinger1 li {
+ margin: 0 10px;
+}
+
+/*desktop*/
+.avdelinger a {
+ text-decoration: none;
+ color: #000;
+ font-weight: bold;
+ font-size: 20px;
+}
+     
+/*desktop*/
+.typesko {
+ width: 403.666px;
+ margin-top: -17px;
+}
+    
+/*desktop*/
+.typesko ul {
+ list-style: none;
+ display: flex;
+ text-align: left;
+ margin-left: -10px;
+ margin-top: -20px;
+}
+    
+/*desktop*/
+.typesko li {
+ margin: 0 10px;
+}
+
+/*desktop*/
+.typesko a {
+ text-decoration: none;
+ color: #000;
+ font-weight: bold;
+ font-size: 15px;
+}
+    
+/*desktop*/
+#mansko {
+ font-size: 20px;
+ margin-top: 15px;
+ margin-left: 15px;
+}
+    
+/*desktop*/
+#settigstext {
+ display: flex;
+ list-style: none;
+ font-size: 18px;
+ gap: 10%;
+ margin-left: 39%;
+ margin-top: 0%;
+}
+    
+/*desktop*/
+#sorter {
+ height: 4%;
+ width: 4%;
+ margin-left: 86%;
+ margin-top: -4%;
+}
+    
+/*desktop*/
+#filter{
+ height: 5%;
+ width: 5%;
+ margin-left: 58%;
+ margin-top: -6%;
+}
+    
+/*desktop*/
+#fargesettings {
+ height: 0%;
+ width: 0%;
+ display: none;
+}
+    
+/*desktop*/
+#linje2 {
+ height: 1px;
+ width: 100%;
+ text-decoration: none;
+ border: 1px solid black;
+ background-color: #000;
+ margin-top: -15px;
+ margin-left: 0%;
+}
+    
+/*desktop*/
+#linje3 {
+ height: 1px;
+ width: 100%;
+ text-decoration: none;
+ border: 1px solid black;
+ background-color: #000;
+ margin-top: 15%;
+ margin-left: 0%;
+}
+
+/*desktop*/
+#sectionbars {
+ margin-top: 25px;
+ margin-left: -30px;
+}
+
+/*desktop*/
+#bars {
+ list-style-type: none;
+}
+    
+/*desktop*/    
+#sectiontitel {
+ font-size: 20px;
+ margin-top: 5px;
+ margin-left: 25px;
+}
+ 
+/*desktop*/
+#sectiontitel a {
+ text-decoration: none;
+}
+
+/*desktop*/
+#overskrift {
+ color: black;
+}
+ 
+/*desktop*/
+#overskrift2 {
+ padding-left: 5%;
+ margin-top: 5%;
+ width: 50%;
+ height: 50%;
+}
+ 
+/*desktop*/
+#velkommen {
+ width: 250px;
+ height: 50px;
+ color: #000;
+ font-size: 40px;
+ margin-top: 15%;
+ margin-left: -30%;
+}
+    
+/*desktop*/    
+#overskrift3 {
+ padding-left: 5%;
+ margin-top: 5%;
+ width: 50%;
+ height: 50%;
+}
+   
+/*desktop*/
+#nybruker {
+ width: 250px;
+ height: 50px;
+ color: #000;
+ font-size: 40px;
+ margin-top: 15%;
+ margin-left: -30%;
+}
+
+/*desktop*/    
+#epost {
+ margin-top: 0%;
+ }
+ 
+/*desktop*/ 
+.epostsmall {
+ width: 30%;
+ height: 30px;
+ border: 1px solid black;
+ background-color: #D9D9D9;
+ margin-top: 20%;
+ margin-left: 20%;
+}
+
+/*desktop*/
+.epostsmall p {
+ margin-top: 5%;
+ text-align: left;
+ margin-left: 5%;
+}
+ 
+/*desktop*/
+.epostborder{
+ height: 35px;
+ width: 75%;
+ margin-left: 20%;
+}
+
+/*desktop*/
+.epostborder input {
+ border: 1px solid black;
+ width: 75%;
+ height: 30px;
+ font-size: 20px;
+}
+ 
+/*desktop*/
+#passord {
+ margin-top: 0%;
+}
+
+/*desktop*/
+.passordsmall {
+ width: 30%;
+ height: 30px;
+ border: 1px solid black;
+ background-color: #D9D9D9;
+ margin-top: 5%;
+ margin-left: 20%;
+}
+
+/*desktop*/
+.passordsmall p {
+ margin-top: 5%;
+ text-align: left;
+ margin-left: 5%;
+}
+
+/*desktop*/
+.passordborder{
+ height: 35px;
+ width: 75%;
+ margin-left: 20%;
+}
+ 
+/*desktop*/
+.passordborder input {
+ border: 1px solid black;
+ width: 75%;
+ height: 30px;
+ font-size: 20px;
+}
+ 
+/*desktop*/
+#loginn {
+ margin-top: 10%;
+ margin-left: 20%;
+}
+ 
+/*desktop*/
+.loginnborder{
+ border: 1px solid black;
+ background-color: #790000;
+ height: 35px;
+ width: 75%;
+}
+ 
+/*desktop*/
+.loginnborder ul {
+ font-size: 20px;
+ text-align: left;
+ margin-top: 1%;
+ margin-left: 5%;
+}
+
+/*desktop*/
+#glemtpass {
+ margin-left: 20%;
+ margin-top: -4%;
+}
+
+/*desktop*/
+#glemtpass a {
+ text-decoration: none;
+ color: #790000;
+}
+
+/*desktop*/
+#register {
+ margin-top: 10%;
+ margin-left: 20%;
+}
+
+/*desktop*/
+.registerborder{
+ height: 35px;
+ width: 75%;
+ border: 1px solid black;
+}
+    
+/*desktop*/
+.registerborder ul {
+ font-size: 20px;
+ text-align: left;
+ margin-top: 1%;
+ margin-left: 5%;
+}
+    
+/*desktop*/    
+#section-ikoner {
+ margin-left: 10px;
+}
+
+/*desktop*/
+.avdelinger a:hover {
+ color: #fff;
+}
+
+/*desktop*/
+.ikoner {
+ padding: 10px;
+ display: flex;
+ justify-content: flex-end;
+}
+
+/*desktop*/
+.ikoner ul {
+ list-style: none;
+ display: flex;
+}
+    
+    .ikoner li {
+     margin: 0 2px;
+    }
+    
+    .ikoner img {
+     width: 35px;
+     height: 30px;
+     margin-top: 3px;
+    }
+    
+    #reklame {
+     background-image: url(../img/randombilde.png); /*kilde */
+     padding-left: 0%;
+     margin-top: -32px;
+     width: 100%;
+     height: 90px;
+    }
+    
+    #reklame1 {
+     background-color: #D9D9D9;
+     padding-left: 0%;
+     margin-top: -20px;
+     width: 318px;
+     height: 90px;
+    }
+    
+    #linje1 {
+     height: 1px;
+     width: 150px;
+     text-decoration: none;
+     border: 1px solid black;
+     background-color: #000;
+     margin-top: -20px;
+     margin-left: -110px;
+    }
+    
+    #sesong {
+     color: #fff;
+     font-size: 35px;
+     margin-top: -5px;
+    }
+    
+    #sesong1 {
+     color: #000;
+     font-size: 25px;
+     margin-top: -5px;
+     margin-left: -100px;
+    }
+    
+    #tilbud {
+     color: #fff;
+     font-size: 20px;
+     margin-top: -25px;
+     margin-left: 10px;
+    }
+    
+    #tilbud1 {
+     color: #000;
+     font-size: 15px;
+     margin-top: -15px;
+     margin-left: -100px;
+    }
+    
+/*desk*/ 
+
+
+.shipping1 {
+ width: 15%;
+ height: 15%;
+ margin: -2%;
+ margin-bottom: 10%;
+}
+    
+#shipikon1 {
+ margin-top: 1%;
+}
+    
+#shipikon11 {
+ margin-top: 1%;
+}
+    
+#shipikon2 {
+ margin-top: -60%;
+}
+    
+.shipping1 p {
+ width: 30px;
+ height: 30px;
+ margin-top: -100%;
+ margin-left: 100px;
+}
+    
+    .shipping1 li {
+     list-style: none;
+     width: 30px;
+     height: 30px;
+     margin-top: -30%;
+     margin-left: 100px;
+    }
+ 
+
+ /*desk*/
+.frifrakt {
+ display: flex;
+ gap: 15%;
+ margin-left: 10%;
+}
+    
+.textikon {
+ display: flex;
+ align-items: center;
+ margin-right: 15px; s
+}
+    
+.textikon img {
+ width: 34px; 
+ height: 34px;
+ margin-right: 10px;
+}
+    
+#frakt1 {
+ width: 180px;
+ height: 20px;
+ color: #000;
+ font-size: 13px;
+ margin-top: -30%;
+ margin-left: 32%;
+}
+    
+    
+#leveringstid1 {
+ width: 160px;
+ height: 20px;
+ color: #000;
+ font-size: 13px;
+ margin-top: 0%;
+ margin-left: 32%;
+}
+    
+.slogan {  
+ background-color: #D9D9D9;
+ padding-left: 0%;
+ margin-top: -2%;
+ width: 100%;
+ height: 40px;
+}   
+
+.slogan h2 {
+ font-size: 20px;
+ color: #828282;
+ margin-left: 30%;
+}
+
+#bilderavavdelinger {
+ display: flex;
+ margin-top: 0%;
+ margin-left: 0%;
+ width: 100%;
+}
+    
+.kvinnebilde {
+ display: block;
+ text-decoration: none;
+ cursor: pointer;
+ width: 340px;
+ height: 400px;
+ margin-top: 0%;
+ margin-left: 30px;
+}
+
+.kvinnebilde img {
+ margin-top: 0%;
+}
+    
+.herrebilde{
+ display: block;
+ text-decoration: none;
+ cursor: pointer;
+ width: 340px;
+ height: 400px;
+ margin-top: 0%;
+ margin-left: 0%;
+}
+ 
+.herrebilde img {
+ margin-top: 0%;
+}
+
+.barnbilde {
+ display: block;
+ text-decoration: none;
+ cursor: pointer;
+ width: 340px;
+ height: 400px;
+ margin-top: 0%;
+ margin-left: 0%;
+}
+   
+.barnbilde img {
+ margin-top: 0%;
+}
+
+#bilde1 img {
+ width: 100%;
+ height: 100%;
+}
+    
+    #bundmeny {
+    border: 1px solid black;
+    background-color: #0E1111;
+    width: 100%;
+    height: 120px;
+    margin-top: 0%;
+    align-content: center;
+    }
+    
+    .informasjonssider1 a {
+     text-decoration: none;
+     color: #fff;
+     font-weight: normal;
+     font-size: 15px;
+     f
+    }
+    
+    .informasjonssider1 li {
+     width: 100px;
+     margin: 0px;
+     margin-left: -10px;
+    }
+    
+    .informasjonssider1 ul {
+     margin-top: 10px;
+    }
+    
+    
+    .informasjonssider2 a {
+     text-decoration: none;
+     color: #fff;
+     font-weight: normal;
+     font-size: 15px;
+    }
+       
+    .informasjonssider2 li {
+     width: 120px;
+     margin: 0px;
+     margin-left: 115px;
+    }
+    
+    .informasjonssider2 ul {
+     margin-top: -75px;
+    }
+    
+    .informasjonssider3 a {
+     text-decoration: none;
+     color: #fff;
+     font-weight: normal;
+     font-size: 15px;
+    }
+    
+    .informasjonssider3 li {
+     width: 120px;
+     margin: 0px;
+     margin-left: 235px;
+    }
+       
+    .informasjonssider3 ul {
+     margin-top: -30px;
+    }
+    
+    #bundmeny2 {
+     width: 100%;
+     height: 155px;
+     margin-top: 100%;
+     align-content: center;
+    }
+    
+    .informasjonssider4 a {
+     text-decoration: none;
+     color: #000;
+     font-weight: bold;
+     font-size: 15px;
+    }
+       
+    .informasjonssider4 li {   
+     width: 100px;
+     margin: 0px;
+     margin-left: -10px;
+     margin-top: 1%;
+     padding-right: 5%;
+     list-style: none;
+    }
+    
+    .informasjonssider4 p {
+     width: 50%;
+     margin-top: 1%;
+     margin-right: 1%;
+    }
+
+/*desktop*/    
+.informasjonssider4 ul {
+ margin-top: 35px;
+ display: flex;
+}
+    
+    
+/*desktop*/
+.sosiales {
+ margin-left: 220px;
+}
+
+/*desktop*/    
+#airforce1white {
+ list-style: none;
+ border: 1px solid black;
+ width: 50%;
+ height: 50%;
+ margin-top: 12%;
+ margin-left: 15%;
+ color: #000;
+}
+
+/*desktop*/    
+#produkt1text ul {
+ width: 70%;
+ margin-top: -3%;
+ margin-left: 1%;
+ text-align: left;
+ list-style: none;
+ color: #000;
+}
+    
+/*desktop*/   
+#produkt2 {
+ list-style: none;
+ margin-top: 17%; 
+}
+
+/*desktop*/   
+#boots {
+ list-style: none;
+ border: 1px solid black;
+ width: 50%;
+ height: 50%;
+ margin-top: 12%;
+ margin-left: 15%;
+ color: #000;
+}
+
+/*desktop*/    
+#produkt2text ul {
+ width: 70%;
+ margin-top: -3%;
+ margin-left: 1%;
+ text-align: left;
+ list-style: none;
+ color: #000;
+}
+
+/*desktop*/    
+#produkt3 {
+ list-style: none;
+ display: none;
+}
+    
+/*desktop*/
+#produkt3text ul {
+ list-style: none;
+ display: none;
+}
+
+/*desktop*/    
+#produkt4 {
+ list-style: none;
+ display: none;
+}
+    
+/*desktop*/
+#produkt4text ul {
+ list-style: none;
+ display: none;
+}
+    
+} /*desktop media query*/
+    

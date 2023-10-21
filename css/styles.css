@@ -1,4 +1,4 @@
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 390px) {   
 header{
  margin-top: -20px;
 }
@@ -706,7 +706,5 @@ margin-top: 17%;
  list-style: none;
  display: none;
 }
-
-
 
 }
