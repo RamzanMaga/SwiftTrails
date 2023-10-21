@@ -6,7 +6,7 @@ header{
 .grid {
  display: grid;
  grid-template-areas:
-    "topmeny"
+    "gtopmeny"
     "undermeny"
     "reklame"
     "slogan"
@@ -14,7 +14,25 @@ header{
     "bundmeny";
 }
 
+
+.grid1 {
+ display: grid;
+ grid-template-areas:
+    "topmeny"
+    "undermeny"
+}
+
+
 #topmeny {
+ width: 100%;
+ height: 75px;
+ margin-left: 0%;
+ background-color: #790000aa;
+ display: flex;
+ flex-direction: row;
+}
+
+#topmeny1 {
  width: 100%;
  height: 75px;
  margin-left: 0%;
@@ -38,7 +56,6 @@ body{
  width: 80px;
  height: 10px;
  margin: -1px;
- margin-top: -50px;
  margin-left: -5px;
 }
    
@@ -74,7 +91,7 @@ body{
  list-style: none;
  display: flex;
  text-align: left;
- margin-left: 160px;
+ margin-left: -40px;
 }
 
 
@@ -93,8 +110,15 @@ body{
  font-size: 20px;
 }
  
+.avdelinger1 a {
+ text-decoration: none;
+ color: #000;
+ font-weight: bold;
+ font-size: 20px;
+}
+
 .typesko {
- width: 403.666px;
+ width: 100%;
  margin-top: -17px;
 }
 
@@ -146,20 +170,14 @@ body{
  margin-top: -6%;
 }
 
-#fargesettings {
- height: 0%;
- width: 0%;
- display: none;
-}
-
 #linje2 {
  height: 1px;
  width: 100%;
  text-decoration: none;
  border: 1px solid black;
  background-color: #000;
- margin-top: -15px;
- margin-left: 0%;
+ margin-top: -10px;
+ margin-left: 0px;
 }
 
 #linje3 {
@@ -177,7 +195,16 @@ body{
  margin-left: -30px;
 }
 
+#sectionbars1 {
+ margin-top: 25px;
+ margin-left: -30px;
+}
+
 #bars {
+ list-style-type: none;
+}
+
+#bars1 {
  list-style-type: none;
 }
 
@@ -188,11 +215,25 @@ body{
  margin-left: 25px;
 }
 
+#sectiontitel1 {
+ font-size: 20px;
+ margin-top: 5px;
+ margin-left: 25px;
+}
+
 #sectiontitel a {
  text-decoration: none;
 }
-      
+
+#sectiontitel1 a {
+ text-decoration: none;
+}
+
 #overskrift {
+ color: black;
+}
+
+#overskrift1 {
  color: black;
 }
 
@@ -342,14 +383,28 @@ body{
 
 
 #section-ikoner {
- margin-left: 10px;
+ margin-left: 0px;
+}
+
+#section-ikoner1 {
+ margin-left: 0px;
 }
 
 .avdelinger a:hover {
  color: #fff;
 }
 
+.avdelinger1 a:hover {
+ color: #fff;
+}
+
 .ikoner {
+ padding: 10px;
+ display: flex;
+ justify-content: flex-end;
+}
+
+.ikoner1 {
  padding: 10px;
  display: flex;
  justify-content: flex-end;
@@ -360,11 +415,26 @@ body{
  display: flex;
 }
 
+.ikoner1 ul {
+ list-style: none;
+ display: flex;
+}
+
 .ikoner li {
  margin: 0 2px;
 }
 
+.ikoner1 li {
+ margin: 0 2px;
+}
+
 .ikoner img {
+ width: 35px;
+ height: 30px;
+ margin-top: 3px;
+}
+
+.ikoner1 img {
  width: 35px;
  height: 30px;
  margin-top: 3px;
@@ -381,8 +451,8 @@ body{
 #reklame1 {
  background-color: #D9D9D9;
  padding-left: 0%;
- margin-top: -20px;
- width: 318px;
+ margin-top: -32px;
+ width: 100%;
  height: 90px;
 }
 
@@ -393,7 +463,7 @@ body{
  border: 1px solid black;
  background-color: #000;
  margin-top: -20px;
- margin-left: -110px;
+ margin-left: -40px;
 }
 
 #sesong {
@@ -407,7 +477,7 @@ body{
  color: #000;
  font-size: 25px;
  margin-top: -5px;
- margin-left: -100px;
+ margin-left: -30px;
 }
 
 #tilbud {
@@ -421,7 +491,7 @@ body{
  color: #000;
  font-size: 15px;
  margin-top: -15px;
- margin-left: -100px;
+ margin-left: -30px;
 }
 
 /*mobil*/
@@ -454,7 +524,7 @@ body{
  width: 30px;
  height: 30px;
  margin-top: -100%;
- margin-left: 100px;
+ margin-left: 185px;
 }
 
 .shipping1 li {
@@ -462,7 +532,7 @@ body{
  width: 30px;
  height: 30px;
  margin-top: -30%;
- margin-left: 100px;
+ margin-left: 185px;
 }
 
 /*mobil*/
@@ -497,8 +567,8 @@ body{
  height: 20px;
  color: #000;
  font-size: 13px;
- margin-top: -30%;
- margin-left: 32%;
+ margin-top: -25%;
+ margin-left: 50%;
 }
 
 
@@ -508,7 +578,7 @@ body{
  color: #000;
  font-size: 13px;
  margin-top: 0%;
- margin-left: 32%;
+ margin-left: 50%;
 }
 
 .slogan { 
@@ -677,7 +747,6 @@ align-content: center;
  list-style: none;
  border: 1px solid black;
  width: 50%;
- height: 50%;
  margin-top: 12%;
  margin-left: 15%;
  color: #000;
@@ -701,7 +770,6 @@ margin-top: 17%;
  list-style: none;
  border: 1px solid black;
  width: 50%;
- height: 50%;
  margin-top: 12%;
  margin-left: 15%;
  color: #000;
@@ -754,8 +822,20 @@ header{
  background-color: #790000aa;
  display: flex;
  flex-direction: row;
+ border: 1px solid black;
 }
-    
+
+/*desktop*/
+#topmeny1 {
+ width: 100%;
+ height: 75px;
+ margin-left: 0%;
+ background-color: #790000aa;
+ display: flex;
+ flex-direction: row;
+ border: 1px solid black;
+}
+
 body{
 margin: 0%;
 }
@@ -770,10 +850,9 @@ margin: 0%;
        
 /*desktop*/
 #søkbar1 {
- width: 80px;
- height: 10px;
+ width: 140px;
+ height: 20px;
  margin: -1px;
- margin-top: -50px;
  margin-left: -5px;
 }
        
@@ -783,21 +862,19 @@ margin: 0%;
 }
        
 #søk1 {
- margin-left: 65px;
+ margin-left: 800px;
 }
     
 /*desktop*/    
 .avdelinger {
  background-color: #a65555;
  width: 100%;
- margin-top: ;
 }
 
 /*desktop*/
 .avdelinger1 {
  background-color: #a65555;
  width: 100%;
- margin-top: -17px;
 }
 
 /*desktop*/
@@ -813,7 +890,7 @@ margin: 0%;
  list-style: none;
  display: flex;
  text-align: left;
- margin-left: 160px;
+ margin-left: -40px;
 }
     
 /*desktop*/    
@@ -833,25 +910,34 @@ margin: 0%;
  font-weight: bold;
  font-size: 20px;
 }
-     
+
+/*desktop*/
+.avdelinger1 a {
+ text-decoration: none;
+ color: #000;
+ font-weight: bold;
+ font-size: 20px;
+}
+
 /*desktop*/
 .typesko {
- width: 403.666px;
- margin-top: -17px;
+ width: 100%;
+ margin-top: 15px;
 }
     
 /*desktop*/
 .typesko ul {
  list-style: none;
- display: flex;
+ display: table-row;
  text-align: left;
  margin-left: -10px;
  margin-top: -20px;
+ margin: 1%;
 }
     
 /*desktop*/
 .typesko li {
- margin: 0 10px;
+ margin-top: 15%;
 }
 
 /*desktop*/
@@ -868,31 +954,44 @@ margin: 0%;
  margin-top: 15px;
  margin-left: 15px;
 }
-    
+
+.skoalternativer {
+ width: 50px;
+}
+
+/*desktop*/
+.skoalternativer a {
+ margin-left: 35%;
+ font-size: 20px;
+}
+
+.skoalternativer ul {
+ display: table-row;
+ row-gap: 2px;
+}
+
 /*desktop*/
 #settigstext {
  display: flex;
  list-style: none;
  font-size: 18px;
- gap: 10%;
- margin-left: 39%;
- margin-top: 0%;
+ gap: 42%;
+ margin-left: 55%;
+ margin-top: -340px;
 }
     
 /*desktop*/
 #sorter {
- height: 4%;
- width: 4%;
- margin-left: 86%;
- margin-top: -4%;
+ width: 27px;
+ margin-left: 88%;
+ margin-top: -25px;
 }
     
 /*desktop*/
 #filter{
- height: 5%;
- width: 5%;
- margin-left: 58%;
- margin-top: -6%;
+ width: 27px;
+ margin-left: 61%;
+ margin-top: -33px;
 }
     
 /*desktop*/
@@ -909,8 +1008,8 @@ margin: 0%;
  text-decoration: none;
  border: 1px solid black;
  background-color: #000;
- margin-top: -15px;
- margin-left: 0%;
+ margin-top: 0px;
+ margin-left: 0px;
 }
     
 /*desktop*/
@@ -931,7 +1030,18 @@ margin: 0%;
 }
 
 /*desktop*/
+#sectionbars1 {
+ margin-top: 25px;
+ margin-left: -30px;
+}
+
+/*desktop*/
 #bars {
+ list-style-type: none;
+}
+
+/*desktop*/
+#bars1 {
  list-style-type: none;
 }
     
@@ -941,14 +1051,31 @@ margin: 0%;
  margin-top: 0%;
  margin-left: 350px;
 }
- 
+
+/*desktop*/    
+#sectiontitel1 {
+ font-size: 25px;
+ margin-top: 0%;
+ margin-left: 350px;
+}
+
 /*desktop*/
 #sectiontitel a {
  text-decoration: none;
 }
 
 /*desktop*/
+#sectiontitel1 a {
+ text-decoration: none;
+}
+
+/*desktop*/
 #overskrift {
+ color: black;
+}
+
+/*desktop*/
+#overskrift1 {
  color: black;
 }
  
@@ -1120,13 +1247,29 @@ margin: 0%;
 /*desktop*/    
 #section-ikoner {}
 
+/*desktop*/    
+#section-ikoner1 {}
+
 /*desktop*/
 .avdelinger a:hover {
  color: #fff;
 }
 
 /*desktop*/
+.avdelinger1 a:hover {
+ color: #fff;
+}
+
+/*desktop*/
 .ikoner {
+ margin-left: 440px;   
+ padding: 10px;
+ display: flex;
+ justify-content: flex-end;
+}
+
+/*desktop*/
+.ikoner1 {
  margin-left: 440px;   
  padding: 10px;
  display: flex;
@@ -1140,12 +1283,30 @@ margin: 0%;
 }
 
 /*desktop*/
+.ikoner1 ul {
+ list-style: none;
+ display: flex;
+}
+
+/*desktop*/
 .ikoner li {
  margin: 0 2px;
 }
 
 /*desktop*/
+.ikoner1 li {
+ margin: 0 2px;
+}
+
+/*desktop*/
 .ikoner img {
+ width: 35px;
+ height: 30px;
+ margin-top: 3px;
+}
+
+/*desktop*/
+.ikoner1 img {
  width: 35px;
  height: 30px;
  margin-top: 3px;
@@ -1164,8 +1325,8 @@ margin: 0%;
 #reklame1 {
  background-color: #D9D9D9;
  padding-left: 0%;
- margin-top: -20px;
- width: 318px;
+ margin-top: -32px;
+ width: 100%;
  height: 90px;
 }
 
@@ -1177,7 +1338,7 @@ margin: 0%;
  border: 1px solid black;
  background-color: #000;
  margin-top: -20px;
- margin-left: -110px;
+ margin-left: -25px;
 }
 
 /*desktop*/    
@@ -1192,7 +1353,7 @@ margin: 0%;
  color: #000;
  font-size: 25px;
  margin-top: -5px;
- margin-left: -100px;
+ margin-left: -15px;
 }
 
 /*desktop*/    
@@ -1208,7 +1369,7 @@ margin: 0%;
  color: #000;
  font-size: 15px;
  margin-top: -15px;
- margin-left: -100px;
+ margin-left: -15px;
 }
      
 /*desktop*/
@@ -1236,19 +1397,19 @@ margin: 0%;
 
 /*desktop*/    
 .shipping1 p {
- width: 30px;
- height: 30px;
- margin-top: -100%;
- margin-left: 100px;
+ width: 60px;
+ height: 60px;
+ margin-top: -23%;
+ margin-left: 700px;
 }
 
 /*desktop*/
 .shipping1 li {
  list-style: none;
- width: 30px;
- height: 30px;
- margin-top: -30%;
- margin-left: 100px;
+ width: 60px;
+ height: 60px;
+ margin-top: -42%;
+ margin-left: 300px;
  }
 
  /*desktop*/
@@ -1283,22 +1444,22 @@ margin: 0%;
 
 /*desktop*/    
 #frakt1 {
- width: 180px;
+ width: 255px;
  height: 20px;
  color: #000;
- font-size: 13px;
- margin-top: -30%;
- margin-left: 32%;
+ font-size: 20px;
+ margin-top: -14%;
+ margin-left: 27%;
 }
     
 /*desktop*/   
 #leveringstid1 {
- width: 160px;
- height: 20px;
+ width: 250px;
+ height: 25px;
  color: #000;
- font-size: 13px;
- margin-top: 0%;
- margin-left: 32%;
+ font-size: 20px;
+ margin-top: -35px;
+ margin-left: 62%;
 }
 
 /*desktop*/    
@@ -1494,76 +1655,121 @@ margin: 0%;
  margin-left: 67%;
 }
 
+
+.produkter #produkt1 {
+ border: none;
+}
+
+
+/*desktop*/    
+#produkt1 {
+ list-style: none;
+ display: block;
+}
+
 /*desktop*/    
 #airforce1white {
  list-style: none;
  border: 1px solid black;
- width: 50%;
- height: 50%;
- margin-top: 12%;
- margin-left: 15%;
+ width: 25%;
+ margin-top: 3%;
+ margin-left: 20%;
  color: #000;
 }
 
 /*desktop*/    
 #produkt1text ul {
- width: 70%;
- margin-top: -3%;
- margin-left: 1%;
+ width: 10%;
+ margin-top: 0%;
+ margin-left: 15%;
  text-align: left;
  list-style: none;
  color: #000;
+ border: none;
 }
-    
+ 
 /*desktop*/   
 #produkt2 {
  list-style: none;
  margin-top: 17%; 
+ border: none;
 }
 
 /*desktop*/   
 #boots {
  list-style: none;
  border: 1px solid black;
- width: 50%;
- height: 50%;
- margin-top: 12%;
- margin-left: 15%;
+ width: 25%;
+ margin-top: -14%;
+ margin-left: 20%;
  color: #000;
 }
 
 /*desktop*/    
 #produkt2text ul {
- width: 70%;
- margin-top: -3%;
- margin-left: 1%;
+ width: 13%;
+ margin-top: 0%;
+ margin-left: 14%;
  text-align: left;
  list-style: none;
  color: #000;
+ border: none;
 }
 
 /*desktop*/    
 #produkt3 {
  list-style: none;
- display: none;
+ display: block;
+ border: none;
 }
-    
+
+/*desktop*/  
+#pensko {
+ list-style: none;
+ border: 1px solid black;
+ width: 25%;
+ margin-top: -790px;
+ transform: translateY(-50px);
+ margin-left: 65%;
+ color: #000;
+}
+
 /*desktop*/
 #produkt3text ul {
+ width: 20%;
+ display: block;
+ margin-left: 60%;
+ border: none;
+ text-align: left;
  list-style: none;
- display: none;
+ color: #000;
+ border: none;
+ margin-top: 50px;
 }
 
 /*desktop*/    
 #produkt4 {
  list-style: none;
- display: none;
+ display: block;
+ border: none;
 }
-    
+
+/*desktop*/  
+#sandaler {
+ list-style: none;
+ border: 1px solid black;
+ width: 25%;
+ margin-top: 40px;
+ margin-left: 65%;
+ color: #000;
+}
+
 /*desktop*/
 #produkt4text ul {
  list-style: none;
- display: none;
+ display: block;
+ margin-left: 60%;
+ border: none;
 }
     
 } /*desktop media query*/
