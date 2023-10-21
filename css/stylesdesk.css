@@ -400,6 +400,7 @@ body{
  color: #fff;
  font-size: 35px;
  margin-top: -5px;
+ margin-left: 20%;
 }
 
 #sesong1 {
@@ -413,7 +414,7 @@ body{
  color: #fff;
  font-size: 20px;
  margin-top: -25px;
- margin-left: 10px;
+ margin-left: 23%;
 }
 
 #tilbud1 {
@@ -468,22 +469,28 @@ body{
 
 .frifrakt {
  display: flex;
- gap: 15%;
- margin-left: 10%;
+ gap: 0%;
+ margin-left: 1%;
 }
        
 .textikon {
  display: flex;
  align-items: center;
- margin-right: 15px; s
+ margin-right: 15px;
 }
        
 .textikon img {
  width: 34px; 
  height: 34px;
- margin-right: 10px;
+ margin-right: 1px;
 }
- 
+
+.textikon p {
+ border: 1px solid black;
+ width: 150px;
+ font-size: 15px;
+ font-weight: bold;
+}
 
 #frakt1 {
  width: 180px;
@@ -529,7 +536,7 @@ body{
 }
 
 .kvinnebilde img {
- margin-top: -15%;
+ margin-top: 0%;
 }
        
 .herrebilde{
@@ -755,8 +762,8 @@ margin: 0%;
 
 /*desktop*/
 #søkbar {
- width: 80px;
- height: 10px;
+ width: 140px;
+ height: 20px;
  margin: -1px;
  margin-left: -5px;
 }
@@ -772,7 +779,7 @@ margin: 0%;
        
 /*desktop*/
 #søk {
- margin-left: 65px;
+ margin-left: 800px;
 }
        
 #søk1 {
@@ -930,9 +937,9 @@ margin: 0%;
     
 /*desktop*/    
 #sectiontitel {
- font-size: 20px;
- margin-top: 5px;
- margin-left: 25px;
+ font-size: 25px;
+ margin-top: 0%;
+ margin-left: 350px;
 }
  
 /*desktop*/
@@ -1111,9 +1118,7 @@ margin: 0%;
 }
     
 /*desktop*/    
-#section-ikoner {
- margin-left: 10px;
-}
+#section-ikoner {}
 
 /*desktop*/
 .avdelinger a:hover {
@@ -1122,6 +1127,7 @@ margin: 0%;
 
 /*desktop*/
 .ikoner {
+ margin-left: 440px;   
  padding: 10px;
  display: flex;
  justify-content: flex-end;
@@ -1132,127 +1138,150 @@ margin: 0%;
  list-style: none;
  display: flex;
 }
-    
-    .ikoner li {
-     margin: 0 2px;
-    }
-    
-    .ikoner img {
-     width: 35px;
-     height: 30px;
-     margin-top: 3px;
-    }
-    
-    #reklame {
-     background-image: url(../img/randombilde.png); /*kilde */
-     padding-left: 0%;
-     margin-top: -32px;
-     width: 100%;
-     height: 90px;
-    }
-    
-    #reklame1 {
-     background-color: #D9D9D9;
-     padding-left: 0%;
-     margin-top: -20px;
-     width: 318px;
-     height: 90px;
-    }
-    
-    #linje1 {
-     height: 1px;
-     width: 150px;
-     text-decoration: none;
-     border: 1px solid black;
-     background-color: #000;
-     margin-top: -20px;
-     margin-left: -110px;
-    }
-    
-    #sesong {
-     color: #fff;
-     font-size: 35px;
-     margin-top: -5px;
-    }
-    
-    #sesong1 {
-     color: #000;
-     font-size: 25px;
-     margin-top: -5px;
-     margin-left: -100px;
-    }
-    
-    #tilbud {
-     color: #fff;
-     font-size: 20px;
-     margin-top: -25px;
-     margin-left: 10px;
-    }
-    
-    #tilbud1 {
-     color: #000;
-     font-size: 15px;
-     margin-top: -15px;
-     margin-left: -100px;
-    }
-    
-/*desk*/ 
 
+/*desktop*/
+.ikoner li {
+ margin: 0 2px;
+}
 
+/*desktop*/
+.ikoner img {
+ width: 35px;
+ height: 30px;
+ margin-top: 3px;
+}
+
+/*desktop*/
+#reklame {
+ background-image: url(../img/randombilde.png); /*kilde */
+ padding-left: 0%;
+ margin-top: -32px;
+ width: 100%;
+ height: 90px;
+}
+
+/*desktop*/    
+#reklame1 {
+ background-color: #D9D9D9;
+ padding-left: 0%;
+ margin-top: -20px;
+ width: 318px;
+ height: 90px;
+}
+
+/*desktop*/    
+#linje1 {
+ height: 1px;
+ width: 150px;
+ text-decoration: none;
+ border: 1px solid black;
+ background-color: #000;
+ margin-top: -20px;
+ margin-left: -110px;
+}
+
+/*desktop*/    
+#sesong {
+ color: #fff;
+ font-size: 35px;
+ margin-top: -5px;
+}
+
+/*desktop*/    
+#sesong1 {
+ color: #000;
+ font-size: 25px;
+ margin-top: -5px;
+ margin-left: -100px;
+}
+
+/*desktop*/    
+#tilbud {
+ color: #fff;
+ font-size: 20px;
+ margin-top: -25px;
+ margin-left: 245px;
+}
+
+/*desktop*/    
+#tilbud1 {
+ color: #000;
+ font-size: 15px;
+ margin-top: -15px;
+ margin-left: -100px;
+}
+     
+/*desktop*/
 .shipping1 {
  width: 15%;
  height: 15%;
  margin: -2%;
  margin-bottom: 10%;
 }
-    
+
+/*desktop*/    
 #shipikon1 {
  margin-top: 1%;
 }
-    
+
+/*desktop*/    
 #shipikon11 {
  margin-top: 1%;
 }
-    
+
+/*desktop*/    
 #shipikon2 {
  margin-top: -60%;
 }
-    
+
+/*desktop*/    
 .shipping1 p {
  width: 30px;
  height: 30px;
  margin-top: -100%;
  margin-left: 100px;
 }
-    
-    .shipping1 li {
-     list-style: none;
-     width: 30px;
-     height: 30px;
-     margin-top: -30%;
-     margin-left: 100px;
-    }
- 
 
- /*desk*/
+/*desktop*/
+.shipping1 li {
+ list-style: none;
+ width: 30px;
+ height: 30px;
+ margin-top: -30%;
+ margin-left: 100px;
+ }
+
+ /*desktop*/
 .frifrakt {
  display: flex;
  gap: 15%;
  margin-left: 10%;
 }
-    
+
+/*desktop*/    
 .textikon {
  display: flex;
  align-items: center;
  margin-right: 15px; s
 }
-    
+
+/*desktop*/    
 .textikon img {
  width: 34px; 
  height: 34px;
  margin-right: 10px;
 }
-    
+
+/*desktop*/ 
+.textikon p {
+ border: 1px solid black;
+ width: 315px;
+ height: 30px;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+/*desktop*/    
 #frakt1 {
  width: 180px;
  height: 20px;
@@ -1262,7 +1291,7 @@ margin: 0%;
  margin-left: 32%;
 }
     
-    
+/*desktop*/   
 #leveringstid1 {
  width: 160px;
  height: 20px;
@@ -1271,7 +1300,8 @@ margin: 0%;
  margin-top: 0%;
  margin-left: 32%;
 }
-    
+
+/*desktop*/    
 .slogan {  
  background-color: #D9D9D9;
  padding-left: 0%;
@@ -1280,19 +1310,22 @@ margin: 0%;
  height: 40px;
 }   
 
+/*desktop*/
 .slogan h2 {
  font-size: 20px;
  color: #828282;
  margin-left: 30%;
 }
 
+/*desktop*/
 #bilderavavdelinger {
  display: flex;
  margin-top: 0%;
  margin-left: 0%;
  width: 100%;
 }
-    
+
+/*desktop*/
 .kvinnebilde {
  display: block;
  text-decoration: none;
@@ -1303,10 +1336,12 @@ margin: 0%;
  margin-left: 30px;
 }
 
+/*desktop*/
 .kvinnebilde img {
  margin-top: 0%;
 }
-    
+
+/*desktop*/
 .herrebilde{
  display: block;
  text-decoration: none;
@@ -1317,10 +1352,12 @@ margin: 0%;
  margin-left: 0%;
 }
  
+/*desktop*/
 .herrebilde img {
  margin-top: 0%;
 }
 
+/*desktop*/
 .barnbilde {
  display: block;
  text-decoration: none;
@@ -1330,106 +1367,120 @@ margin: 0%;
  margin-top: 0%;
  margin-left: 0%;
 }
-   
+ 
+/*desktop*/
 .barnbilde img {
  margin-top: 0%;
 }
 
+/*desktop*/
 #bilde1 img {
  width: 100%;
  height: 100%;
 }
+
+/*desktop*/
+#bundmeny {
+ border: 1px solid black;
+ background-color: #0E1111;
+ width: 100%;
+ height: 120px;
+ margin-top: 0%;
+ align-content: center;
+}
+
+/*desktop*/    
+.informasjonssider1 a {
+ text-decoration: none;
+ color: #fff;
+ font-weight: normal;
+ font-size: 15px;
+}
+
+/*desktop*/    
+.informasjonssider1 li {
+ width: 100px;
+ margin: 10px;
+ margin-left: -10px;
+}
+
+/*desktop*/    
+.informasjonssider1 ul {
+ margin-top: 10px;
+}
     
-    #bundmeny {
-    border: 1px solid black;
-    background-color: #0E1111;
-    width: 100%;
-    height: 120px;
-    margin-top: 0%;
-    align-content: center;
-    }
-    
-    .informasjonssider1 a {
-     text-decoration: none;
-     color: #fff;
-     font-weight: normal;
-     font-size: 15px;
-     f
-    }
-    
-    .informasjonssider1 li {
-     width: 100px;
-     margin: 0px;
-     margin-left: -10px;
-    }
-    
-    .informasjonssider1 ul {
-     margin-top: 10px;
-    }
-    
-    
-    .informasjonssider2 a {
-     text-decoration: none;
-     color: #fff;
-     font-weight: normal;
-     font-size: 15px;
-    }
+/*desktop*/    
+.informasjonssider2 a {
+ text-decoration: none;
+ color: #fff;
+ font-weight: normal;
+ font-size: 15px;
+}
+
+/*desktop*/    
+.informasjonssider2 li {
+ width: 120px;
+ margin: 10px;
+ margin-left: 330px;
+}
+
+/*desktop*/    
+.informasjonssider2 ul {
+ margin-top: -95px;
+}
+
+/*desktop*/    
+.informasjonssider3 a {
+ text-decoration: none;
+ color: #fff;
+ font-weight: normal;
+ font-size: 15px;
+}
+
+/*desktop*/    
+.informasjonssider3 li {
+ width: 120px;
+ margin: 0px;
+ margin-left: 70%;
+}
+
+/*desktop*/    
+.informasjonssider3 ul {
+ margin-top: -90px;
+}
+
+/*desktop*/    
+#bundmeny2 {
+ width: 100%;
+ height: 155px;
+ margin-top: 100%;
+ align-content: center;
+}
+ 
+/*desktop*/    
+.informasjonssider4 a {
+ text-decoration: none;
+ color: #000;
+ font-weight: bold;
+ font-size: 15px;
+}
        
-    .informasjonssider2 li {
-     width: 120px;
-     margin: 0px;
-     margin-left: 115px;
-    }
-    
-    .informasjonssider2 ul {
-     margin-top: -75px;
-    }
-    
-    .informasjonssider3 a {
-     text-decoration: none;
-     color: #fff;
-     font-weight: normal;
-     font-size: 15px;
-    }
-    
-    .informasjonssider3 li {
-     width: 120px;
-     margin: 0px;
-     margin-left: 235px;
-    }
-       
-    .informasjonssider3 ul {
-     margin-top: -30px;
-    }
-    
-    #bundmeny2 {
-     width: 100%;
-     height: 155px;
-     margin-top: 100%;
-     align-content: center;
-    }
-    
-    .informasjonssider4 a {
-     text-decoration: none;
-     color: #000;
-     font-weight: bold;
-     font-size: 15px;
-    }
-       
-    .informasjonssider4 li {   
-     width: 100px;
-     margin: 0px;
-     margin-left: -10px;
-     margin-top: 1%;
-     padding-right: 5%;
-     list-style: none;
-    }
-    
-    .informasjonssider4 p {
-     width: 50%;
-     margin-top: 1%;
-     margin-right: 1%;
-    }
+/*desktop*/
+.informasjonssider4 li {   
+ width: 100px;
+ margin: 0px;
+ margin-left: -10px;
+ margin-top: 1%;
+ padding-right: 5%;
+ list-style: none;
+}
+
+/*desktop*/    
+.informasjonssider4 p {
+ width: 50%;
+ margin-top: 1%;
+ margin-right: 1%;
+}
 
 /*desktop*/    
 .informasjonssider4 ul {
@@ -1440,7 +1491,7 @@ margin: 0%;
     
 /*desktop*/
 .sosiales {
- margin-left: 220px;
+ margin-left: 67%;
 }
 
 /*desktop*/    
