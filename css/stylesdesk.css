@@ -186,7 +186,7 @@ body{
  text-decoration: none;
  border: 1px solid black;
  background-color: #000;
- margin-top: 15%;
+ margin-top: 8%;
  margin-left: 0%;
 }
 
@@ -239,7 +239,7 @@ body{
 
 #overskrift2 {
  padding-left: 5%;
- margin-top: 5%;
+ margin-top: -5%;
  width: 50%;
  height: 50%;
 }
@@ -271,7 +271,7 @@ body{
 }
 
 #epost {
- margin-top:    0%;
+ margin-top: 0%;
 }
 
 .epostsmall {
@@ -279,7 +279,7 @@ body{
  height: 30px;
  border: 1px solid black;
  background-color: #D9D9D9;
- margin-top: 20%;
+ margin-top: 2%;
  margin-left: 20%;
 }
 
@@ -335,26 +335,26 @@ body{
 }
 
 #loginn {
- margin-top: 10%;
+ margin-top: 5%;
  margin-left: 20%;
 }
 
 .loginnborder{
  border: 1px solid black;
  background-color: #790000;
- height: 35px;
- width: 75%;
+ height: 26px;
+ width: 67%;
 }
 
 .loginnborder ul {
  font-size: 20px;
  text-align: left;
- margin-top: 1%;
+ margin-top: 0%;
  margin-left: 5%;
 }
 
 #glemtpass {
- margin-left: 20%;
+ margin-left: 33%;
  margin-top: -4%;
 }
 
@@ -364,21 +364,21 @@ body{
 }
 
 #register {
- margin-top: 10%;
+ margin-top: -15%;
  margin-left: 20%;
 }
 
 .registerborder{
- height: 35px;
- width: 75%;
+ height: 26px;
+ width: 67%;
  border: 1px solid black;
 }
 
 .registerborder ul {
  font-size: 20px;
  text-align: left;
- margin-top: 1%;
- margin-left: 5%;
+ margin-top: 0%;
+ margin-left: 0%;
 }
 
 
@@ -656,7 +656,6 @@ align-content: center;
  color: #fff;
  font-weight: normal;
  font-size: 15px;
- f
 }
 
 .informasjonssider1 li {
@@ -715,15 +714,12 @@ align-content: center;
  text-decoration: none;
  color: #000;
  font-weight: bold;
- font-size: 15px;
+ font-size: 10px;
 }
    
 .informasjonssider4 li {   
  width: 100px;
- margin: 0px;
- margin-left: -10px;
- margin-top: 1%;
- padding-right: 5%;
+ margin-top: -5%;
  list-style: none;
 }
 
@@ -1099,7 +1095,7 @@ margin: 0%;
     
 /*desktop*/    
 #overskrift3 {
- padding-left: 5%;
+ padding-left: 15%;
  margin-top: 5%;
  width: 50%;
  height: 50%;
@@ -1148,7 +1144,7 @@ margin: 0%;
 .epostborder input {
  border: 1px solid black;
  width: 75%;
- height: 30px;
+ height: 38px;
  font-size: 20px;
 }
  
@@ -1159,8 +1155,8 @@ margin: 0%;
 
 /*desktop*/
 .passordsmall {
- width: 30%;
- height: 30px;
+ width: 23%;
+ height: 38px;
  border: 1px solid black;
  background-color: #D9D9D9;
  margin-top: 5%;
@@ -1185,22 +1181,22 @@ margin: 0%;
 .passordborder input {
  border: 1px solid black;
  width: 75%;
- height: 30px;
+ height: 38px;
  font-size: 20px;
 }
  
 /*desktop*/
 #loginn {
  margin-top: 10%;
- margin-left: 20%;
+ margin-left: 23%;
 }
  
 /*desktop*/
 .loginnborder{
  border: 1px solid black;
  background-color: #790000;
- height: 35px;
- width: 75%;
+ height: 45px;
+ width: 68%;
 }
  
 /*desktop*/
@@ -1213,26 +1209,27 @@ margin: 0%;
 
 /*desktop*/
 #glemtpass {
- margin-left: 20%;
- margin-top: -4%;
+ margin-left: 45%;
+ margin-top: 0%;
 }
 
 /*desktop*/
 #glemtpass a {
  text-decoration: none;
+ font-size: 20px;
  color: #790000;
 }
 
 /*desktop*/
 #register {
- margin-top: 10%;
+ margin-top: 0%;
  margin-left: 20%;
 }
 
 /*desktop*/
 .registerborder{
- height: 35px;
- width: 75%;
+ height: 45px;
+ width: 68%;
  border: 1px solid black;
 }
     
@@ -1628,19 +1625,10 @@ margin: 0%;
        
 /*desktop*/
 .informasjonssider4 li {   
- width: 100px;
- margin: 0px;
- margin-left: -10px;
- margin-top: 1%;
- padding-right: 5%;
+ width: 150px;
+ margin-left: 130px;
+ margin-top: -2%;
  list-style: none;
-}
-
-/*desktop*/    
-.informasjonssider4 p {
- width: 50%;
- margin-top: 1%;
- margin-right: 1%;
 }
 
 /*desktop*/    
@@ -1648,19 +1636,11 @@ margin: 0%;
  margin-top: 35px;
  display: flex;
 }
-    
-    
+        
 /*desktop*/
 .sosiales {
  margin-left: 67%;
 }
-
-
-.produkter #produkt1 {
- border: none;
-}
-
-
 
 /*desktop*/    
 #produkt1 {
@@ -1686,7 +1666,6 @@ margin: 0%;
  text-align: left;
  list-style: none;
  color: #000;
- border: none;
 }
  
 /*desktop*/   
@@ -1714,7 +1693,6 @@ margin: 0%;
  text-align: left;
  list-style: none;
  color: #000;
- border: none;
 }
 
 /*desktop*/    
@@ -1744,7 +1722,6 @@ margin: 0%;
  text-align: left;
  list-style: none;
  color: #000;
- border: none;
  margin-top: 50px;
 }
 
