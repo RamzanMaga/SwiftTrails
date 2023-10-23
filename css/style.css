@@ -143,21 +143,21 @@ body{
 .typesko li {
  margin: 0 10px;
 }
-   
-.typesko a {
- text-decoration: none;
- color: #000;
- font-weight: bold;
- font-size: 15px;
-}
 
 #mansko {
  font-size: 20px;
  margin-top: 15px;
  margin-left: 15px;
 }
+ 
+.typesko a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+ }
 
-#settigstext {
+.settigstext {
  display: flex;
  list-style: none;
  font-size: 18px;
@@ -955,14 +955,6 @@ margin: 0%;
 .typesko li {
  margin-top: 15%;
 }
-
-/*desktop*/
-.typesko a {
- text-decoration: none;
- color: #000;
- font-weight: bold;
- font-size: 15px;
-}
     
 /*desktop*/
 #mansko {
@@ -987,15 +979,17 @@ margin: 0%;
 }
 
 /*desktop*/
-#settigstext {
+.settigstext {
  display: flex;
  list-style: none;
  font-size: 18px;
- gap: 42%;
- margin-left: 55%;
+ gap: 50%;
+ margin-left: 550px;
  margin-top: -265px;
 }
-    
+ 
+
+
 /*desktop*/
 .settingsikoner {
  display: flex;
